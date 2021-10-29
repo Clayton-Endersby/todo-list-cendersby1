@@ -4,7 +4,7 @@ import { dataFetcher } from "./utils/dataFetcher";
 import { keyGenerator } from "./utils/keys";
 
 const onAppInit =   async function(e){
-  const employees =  await dataFetcher('./data/employees.json')
+  const employees =  await dataFetcher('./data/todos.json')
   createStore(keyGenerator(employees))
   Router(window.location.pathname)
 }
