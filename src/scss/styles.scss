@@ -1,3 +1,11 @@
 @use 'reboot';
 @use 'page-header';
-@use 'todos';
+@use 'todo-item';
+
+body {
+    max-width: 500px;
+}
+
+.todos {
+    background-color: #949398ff;
+}

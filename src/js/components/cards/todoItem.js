@@ -1,20 +1,13 @@
-
 import makeElement from "../../utils/makeElement"
+import link from "../ui/link"
 
 const todoItem = function ({id, category, description, isComplete}) {
     const template =   `
-        <li class="todo-item" data-key="${id}">
+        <li class="todo-item ${category}" data-key="${id}">
             <div>
                 <h3>${category}</h3>
                 <p>${description}</p>
-                ${ (()=> {
-                        if (isComplete === true) {
-                            return `<p class="completed">complete</p>`
-                        }else {
-                            return ``
-                        }
-                    }
-                )()}
+                <p class="is-complete">${isComplete ? 'Completed' : ''}</p>
             </div>
             <div>
                 <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="trash-alt" class="svg-inline--fa fa-trash-alt fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">

@@ -6,7 +6,7 @@ const index = function() {
     const todoListLink = link("Go to your to-dos", '/directory')
     const template = `
         <header class="ui-header">
-        <h1>Index Page</h1>
+        <h1>WORLD'S BEST ORGANIZER</h1>
         </header>
     `;
     const pageHeader = makeElement(template);

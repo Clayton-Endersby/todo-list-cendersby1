@@ -1,0 +1,51 @@
+li.todo-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    margin: 1rem 0.5rem;
+    box-shadow: 10px 10px 8px #5c5c5c;
+    border-radius: 0.5rem;
+    background-color: #fff;
+}
+
+li.todo-item h3 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.5rem;
+}
+
+li.todo-item p {
+    font-family: 'Manrope', sans-serif;
+}
+
+li.todo-item div:last-of-type {
+    display: flex;
+}
+
+li .is-complete {
+    color: #9e1800;
+}
+
+.todo-item svg {
+    width: 1.7rem;
+    margin-left: 0.5rem;
+}
+
+.home {
+    border-left: 0.5rem solid #ffcd01;
+}
+
+.school {
+    border-left: 0.5rem solid #028a0f;
+}
+
+.health {
+    border-left: 0.5rem solid #0492c2;
+}
+
+.friends {
+    border-left: 0.5rem solid #a91b0d;
+}
+
+.work {
+    border-left: 0.5rem solid #290916;
+}
