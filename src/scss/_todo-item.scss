@@ -30,6 +30,18 @@ li .is-complete {
     margin-left: 0.5rem;
 }
 
+.todo-item button,
+button.add-item {
+    border: none;
+    background: none;
+    margin-left: 1rem;
+}
+
+.todo-item button:hover,
+button.add-item:hover {
+    cursor: pointer;
+}
+
 .home {
     border-left: 0.5rem solid #ffcd01;
 }

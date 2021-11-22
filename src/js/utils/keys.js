@@ -18,7 +18,6 @@ const keyGenerator = function(data=[]){
          return item
      })
       return keyData
-     
 }
 
 export {keyGenerator}
